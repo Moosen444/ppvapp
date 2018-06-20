@@ -28,6 +28,22 @@ class App extends Component {
           </label>
          </form>
         </span>
+        <span>
+         <form>
+          <label>
+           Name:
+            <input type="text" name="name" />
+          </label>
+         </form>
+        </span>
+        <span>
+         <form>
+          <label>
+           Name:
+            <input type="text" name="name" />
+          </label>
+         </form>
+        </span>
       </div>
     );
   }
