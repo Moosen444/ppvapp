@@ -8,11 +8,26 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src="https://pla.s6img.com/society6/img/DSWV1LDjjsLub792k2wm_83dUcU/w_700/prints/~artwork/s6-0032/a/15280519_7819380/~~/wwe-ring-logo-prints.jpg" className="App-logo" alt="logo" />
-          <h1 className="App-title">We bet it all</h1>
+          <h1 className="App-title">Place your bets</h1>
         </header>
-        <p className="App-intro">
-          Not really but this will help us all.
+        <p className="App-intro"> For fun or for more!
         </p>
+        <span>
+         <form>
+          <label>
+           Name:
+            <input type="text" name="name" />
+          </label>
+         </form>
+        </span>
+        <span>
+         <form>
+          <label>
+           Name:
+            <input type="text" name="name" />
+          </label>
+         </form>
+        </span>
       </div>
     );
   }
