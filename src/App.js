@@ -19,6 +19,7 @@ class App extends Component {
             <input type="text" name="name" />
           </label>
          </form>
+         <button>Winner</button>
         </span>
         <span>
          <form>
@@ -27,6 +28,7 @@ class App extends Component {
             <input type="text" name="name" />
           </label>
          </form>
+         <button>Winner</button>
         </span>
         <span>
          <form>
@@ -35,6 +37,7 @@ class App extends Component {
             <input type="text" name="name" />
           </label>
          </form>
+         <button>Winner</button>
         </span>
         <span>
          <form>
@@ -43,6 +46,7 @@ class App extends Component {
             <input type="text" name="name" />
           </label>
          </form>
+         <button>Winner</button>
         </span>
       </div>
     );
