@@ -3,6 +3,48 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+ constructor(props){
+   super(props);
+   this.state = {
+     winner1 : 0,
+     winner2 : 0,
+     winner3 : 0,
+     winner4 : 0,
+   };
+   this.winner1 = this.incrementwinner1.bind(this);
+   this.winner2 = this.incrementwinner2.bind(this);
+   this.winner3 = this.incrementwinner3.bind(this);
+   this.winner4 = this.incrementwinner4.bind(this);
+   this.reset = this.reset.bind(this);
+ };
+  incrementwinner1(){
+    this.setState(
+      { counterwinner1 : this.state.winner1 + 1, }
+    );
+  }
+  incrementwinner2(){
+    this.setState(
+      { counterwinner2 : this.state.winner2 + 1, }
+    );
+  }
+  incrementwinner3(){
+    this.setState(
+      { counterwinner3 : this.state.winner3 + 1, }
+    );
+  }
+  incrementwinner4(){
+    this.setState(
+      { counterwinner4 : this.state.winner4 + 1, }
+    );
+  }
+  reset(){
+    this.setState({
+      winner1 : 0,
+      winner2 : 0,
+      winner3 : 0,
+      winner4 : 0,
+    });
+  }
   render() {
     return (
       <div className="App">
@@ -19,7 +61,7 @@ class App extends Component {
             <input type="text" name="name" />
           </label>
          </form>
-         <button>Winner</button>
+         <button onClick={this.incrementwinner1}>Winner {this.state.incrementwinner1}</button>
         </span>
         <span>
          <form>
@@ -28,7 +70,7 @@ class App extends Component {
             <input type="text" name="name" />
           </label>
          </form>
-         <button>Winner</button>
+         <button onClick={this.incrementwinner2}>Winner {this.state.incrementwinner2}</button>
         </span>
         <span>
          <form>
@@ -37,7 +79,7 @@ class App extends Component {
             <input type="text" name="name" />
           </label>
          </form>
-         <button>Winner</button>
+         <button onClick={this.incrementwinner3}>Winner {this.state.incrementwinner3}</button>
         </span>
         <span>
          <form>
@@ -46,8 +88,11 @@ class App extends Component {
             <input type="text" name="name" />
           </label>
          </form>
-         <button>Winner</button>
+         <button onClick={this.incrementwinner4}>Winner {this.state.incrementwinner4}</button>
         </span>
+        <div>
+        <button onClick={this.reset}>Reset</button>
+        </div>
       </div>
     );
   }
