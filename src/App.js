@@ -99,9 +99,7 @@ class App extends Component {
         <div>
         <button onClick={this.reset}>Reset</button>
         </div>
-        <p>
-         Match 1
-         </p>
+        <h3> Match 1 </h3>
          <span>
          <div class="container">
            <div class="row">
@@ -134,9 +132,7 @@ class App extends Component {
             <input type="text" name="name" placeholder="Jessica's Bet" />
           </label>
          </span>
-         <p>
-        v.s.
-        </p>
+         <h5> V.S. </h5>
         <span>
         <div class="container">
           <div class="row">
@@ -169,9 +165,7 @@ class App extends Component {
            <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
-        <p>
-         Match 2
-        </p>
+        <h3> Match 2 </h3>
         <span>
         <div class="container">
           <div class="row">
@@ -204,9 +198,7 @@ class App extends Component {
            <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
-        <p>
-        v.s.
-        </p>
+        <h5> V.S. </h5>
         <span>
         <div class="container">
           <div class="row">
@@ -239,9 +231,7 @@ class App extends Component {
            <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
-        <p>
-         Match 3
-        </p>
+        <h3> Match 3 </h3>
         <span>
         <div class="container">
           <div class="row">
@@ -274,9 +264,7 @@ class App extends Component {
            <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
-        <p>
-        v.s.
-        </p>
+        <h5> V.S. </h5>
         <span>
         <div class="container">
           <div class="row">
@@ -309,9 +297,7 @@ class App extends Component {
            <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
-        <p>
-         Match 4
-        </p>
+        <h3> Match 4 </h3>
         <span>
         <div class="container">
           <div class="row">
@@ -344,9 +330,7 @@ class App extends Component {
            <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
-        <p>
-        v.s.
-        </p>
+        <h5> V.S. </h5>
         <span>
         <div class="container">
           <div class="row">
@@ -379,9 +363,7 @@ class App extends Component {
            <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
-        <p>
-         Match 5
-        </p>
+        <h3> Match 5 </h3>
         <span>
         <div class="container">
           <div class="row">
@@ -414,9 +396,7 @@ class App extends Component {
            <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
-        <p>
-        v.s.
-        </p>
+        <h5> V.S. </h5>
         <span>
         <div class="container">
           <div class="row">
@@ -449,9 +429,7 @@ class App extends Component {
            <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
-        <p>
-         Match 6
-        </p>
+        <h3> Match 6 </h3>
         <span>
         <div class="container">
           <div class="row">
@@ -484,9 +462,7 @@ class App extends Component {
            <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
-        <p>
-        v.s.
-        </p>
+        <h5> V.S. </h5>
         <span>
         <div class="container">
           <div class="row">
@@ -519,9 +495,7 @@ class App extends Component {
            <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
-        <p>
-         Match 7
-        </p>
+        <h3> Match 7 </h3>
         <span>
         <div class="container">
           <div class="row">
@@ -554,9 +528,7 @@ class App extends Component {
            <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
-        <p>
-        v.s.
-        </p>
+        <h5> V.S. </h5>
         <span>
         <div class="container">
           <div class="row">
@@ -589,9 +561,7 @@ class App extends Component {
            <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
-        <p>
-         Match 8
-        </p>
+        <h3> Match 8 </h3>
         <span>
         <div class="container">
           <div class="row">
@@ -624,9 +594,7 @@ class App extends Component {
            <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
-        <p>
-        v.s.
-        </p>
+        <h5> V.S. </h5>
         <span>
         <div class="container">
           <div class="row">
@@ -659,9 +627,7 @@ class App extends Component {
            <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
-        <p>
-         Match 9
-        </p>
+        <h3> Match 9 </h3>
         <span>
         <div class="container">
           <div class="row">
@@ -694,9 +660,7 @@ class App extends Component {
            <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
-        <p>
-        v.s.
-        </p>
+        <h5> V.S. </h5>
         <span>
         <div class="container">
           <div class="row">
@@ -729,9 +693,7 @@ class App extends Component {
            <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
-        <p>
-         Match 10
-        </p>
+        <h3> Match 10 </h3>
         <span>
         <div class="container">
           <div class="row">
@@ -764,9 +726,7 @@ class App extends Component {
            <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
-        <p>
-        v.s.
-        </p>
+        <h5> V.S. </h5>
         <span>
         <div class="container">
           <div class="row">
