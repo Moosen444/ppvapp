@@ -46,6 +46,21 @@ class App extends Component {
   }
   render() {
     return (
+     <div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5> Opponent 1 </h5>
+             <form>
+              <select class="chosen select">
+               <option>Bayley</option>
+               <option>Lana</option>
+               <option>Peyton</option>
+              </select>
+             </form>
+          </div>
+        </div>
+      </div>
       <div className="App">
         <header className="App-header">
           <img src="https://pla.s6img.com/society6/img/DSWV1LDjjsLub792k2wm_83dUcU/w_700/prints/~artwork/s6-0032/a/15280519_7819380/~~/wwe-ring-logo-prints.jpg" className="App-logo" alt="logo" />
@@ -56,28 +71,28 @@ class App extends Component {
         <span>
           <label>
            Name:
-            <input type="text" name="name" />
+            <input type="text" name="name" placeholder="Andrew's Bet" />
           </label>
          <button onClick={this.incrementwinner1}>Winner {this.state.winner1}</button>
         </span>
         <span>
           <label>
            Name:
-            <input type="text" name="name" />
+            <input type="text" name="name" placeholder="Jake's Bet" />
           </label>
          <button onClick={this.incrementwinner2}>Winner {this.state.winner2}</button>
         </span>
         <span>
           <label>
            Name:
-            <input type="text" name="name" />
+            <input type="text" name="name" placeholder="Nick's Bet" />
           </label>
          <button onClick={this.incrementwinner3}>Winner {this.state.winner3}</button>
         </span>
         <span>
           <label>
            Name:
-            <input type="text" name="name" />
+            <input type="text" name="name" placeholder="Jessica's Bet" />
           </label>
          <button onClick={this.incrementwinner4}>Winner {this.state.winner4}</button>
         </span>
@@ -86,817 +101,706 @@ class App extends Component {
         </div>
         <p>
          Match 1
-        </p>
-        <span>
-         <form>
+         </p>
+         <span>
+         <div class="container">
+           <div class="row">
+             <div class="col-md-6">
+               <h5> Opponent 1 </h5>
+                <form>
+                 <select class="chosen select">
+                  <option>Bayley</option>
+                  <option>Lana</option>
+                  <option>Peyton</option>
+                 </select>
+                </form>
+             </div>
+           </div>
+         </div>
           <label>
-           Opponent 1:
-            <input type="text" name="name" />
+           Name:
+            <input type="text" name="name" placeholder="Andrew's Bet" />
           </label>
-          <button>Winner </button>
-          </form>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-        </span>
-        <p>
+          <label>
+           Name:
+            <input type="text" name="name" placeholder="Jake's Bet" />
+          </label>
+          <label>
+           Name:
+            <input type="text" name="name" placeholder="Nick's Bet" />
+          </label>
+          <label>
+           Name:
+            <input type="text" name="name" placeholder="Jessica's Bet" />
+          </label>
+         </span>
+         <p>
         v.s.
         </p>
         <span>
-         <form>
-          <label>
-           Opponent 2:
-            <input type="text" name="name" />
-          </label>
-          <button>Winner </button>
-         </form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5> Opponent 2 </h5>
+               <form>
+                <select class="chosen select">
+                 <option>Bayley</option>
+                 <option>Lana</option>
+                 <option>Peyton</option>
+                </select>
+               </form>
+            </div>
+          </div>
+        </div>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Andrew's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jake's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Nick's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
         <p>
          Match 2
         </p>
         <span>
-         <form>
-          <label>
-           Opponent 1:
-            <input type="text" name="name" />
-          </label>
-         </form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5> Opponent 1 </h5>
+               <form>
+                <select class="chosen select">
+                 <option>Bayley</option>
+                 <option>Lana</option>
+                 <option>Peyton</option>
+                </select>
+               </form>
+            </div>
+          </div>
+        </div>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Andrew's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jake's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Nick's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
         <p>
         v.s.
         </p>
         <span>
-         <form>
-          <label>
-           Opponent 2:
-            <input type="text" name="name" />
-          </label>
-         </form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5> Opponent 2 </h5>
+               <form>
+                <select class="chosen select">
+                 <option>Bayley</option>
+                 <option>Lana</option>
+                 <option>Peyton</option>
+                </select>
+               </form>
+            </div>
+          </div>
+        </div>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Andrew's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jake's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Nick's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
         <p>
          Match 3
         </p>
         <span>
-         <form>
-          <label>
-           Opponent 1:
-            <input type="text" name="name" />
-          </label>
-         </form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5> Opponent 1 </h5>
+               <form>
+                <select class="chosen select">
+                 <option>Bayley</option>
+                 <option>Lana</option>
+                 <option>Peyton</option>
+                </select>
+               </form>
+            </div>
+          </div>
+        </div>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Andrew's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jake's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Nick's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
         <p>
         v.s.
         </p>
         <span>
-         <form>
-          <label>
-           Opponent 2:
-            <input type="text" name="name" />
-          </label>
-         </form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5> Opponent 2 </h5>
+               <form>
+                <select class="chosen select">
+                 <option>Bayley</option>
+                 <option>Lana</option>
+                 <option>Peyton</option>
+                </select>
+               </form>
+            </div>
+          </div>
+        </div>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Andrew's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jake's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Nick's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
         <p>
          Match 4
         </p>
         <span>
-         <form>
-          <label>
-           Opponent 1:
-            <input type="text" name="name" />
-          </label>
-         </form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5> Opponent 1 </h5>
+               <form>
+                <select class="chosen select">
+                 <option>Bayley</option>
+                 <option>Lana</option>
+                 <option>Peyton</option>
+                </select>
+               </form>
+            </div>
+          </div>
+        </div>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Andrew's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jake's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Nick's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
         <p>
         v.s.
         </p>
         <span>
-         <form>
-          <label>
-           Opponent 2:
-            <input type="text" name="name" />
-          </label>
-         </form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5> Opponent 2 </h5>
+               <form>
+                <select class="chosen select">
+                 <option>Bayley</option>
+                 <option>Lana</option>
+                 <option>Peyton</option>
+                </select>
+               </form>
+            </div>
+          </div>
+        </div>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Andrew's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jake's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Nick's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
         <p>
          Match 5
         </p>
         <span>
-         <form>
-          <label>
-           Opponent 1:
-            <input type="text" name="name" />
-          </label>
-         </form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5> Opponent 1 </h5>
+               <form>
+                <select class="chosen select">
+                 <option>Bayley</option>
+                 <option>Lana</option>
+                 <option>Peyton</option>
+                </select>
+               </form>
+            </div>
+          </div>
+        </div>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Andrew's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jake's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Nick's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
         <p>
         v.s.
         </p>
         <span>
-         <form>
-          <label>
-           Opponent 2:
-            <input type="text" name="name" />
-          </label>
-         </form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5> Opponent 2 </h5>
+               <form>
+                <select class="chosen select">
+                 <option>Bayley</option>
+                 <option>Lana</option>
+                 <option>Peyton</option>
+                </select>
+               </form>
+            </div>
+          </div>
+        </div>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Andrew's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jake's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Nick's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
         <p>
          Match 6
         </p>
         <span>
-         <form>
-          <label>
-           Opponent 1:
-            <input type="text" name="name" />
-          </label>
-         </form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5> Opponent 1 </h5>
+               <form>
+                <select class="chosen select">
+                 <option>Bayley</option>
+                 <option>Lana</option>
+                 <option>Peyton</option>
+                </select>
+               </form>
+            </div>
+          </div>
+        </div>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Andrew's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jake's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Nick's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
         <p>
         v.s.
         </p>
         <span>
-         <form>
-          <label>
-           Opponent 2:
-            <input type="text" name="name" />
-          </label>
-         </form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5> Opponent 2 </h5>
+               <form>
+                <select class="chosen select">
+                 <option>Bayley</option>
+                 <option>Lana</option>
+                 <option>Peyton</option>
+                </select>
+               </form>
+            </div>
+          </div>
+        </div>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Andrew's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jake's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Nick's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
         <p>
          Match 7
         </p>
         <span>
-         <form>
-          <label>
-           Opponent 1:
-            <input type="text" name="name" />
-          </label>
-         </form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5> Opponent 1 </h5>
+               <form>
+                <select class="chosen select">
+                 <option>Bayley</option>
+                 <option>Lana</option>
+                 <option>Peyton</option>
+                </select>
+               </form>
+            </div>
+          </div>
+        </div>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Andrew's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jake's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Nick's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
         <p>
         v.s.
         </p>
         <span>
-         <form>
-          <label>
-           Opponent 2:
-            <input type="text" name="name" />
-          </label>
-         </form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5> Opponent 2 </h5>
+               <form>
+                <select class="chosen select">
+                 <option>Bayley</option>
+                 <option>Lana</option>
+                 <option>Peyton</option>
+                </select>
+               </form>
+            </div>
+          </div>
+        </div>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Andrew's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jake's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Nick's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
         <p>
          Match 8
         </p>
         <span>
-         <form>
-          <label>
-           Opponent 1:
-            <input type="text" name="name" />
-          </label>
-         </form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5> Opponent 1 </h5>
+               <form>
+                <select class="chosen select">
+                 <option>Bayley</option>
+                 <option>Lana</option>
+                 <option>Peyton</option>
+                </select>
+               </form>
+            </div>
+          </div>
+        </div>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Andrew's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jake's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Nick's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
         <p>
         v.s.
         </p>
         <span>
-         <form>
-          <label>
-           Opponent 2:
-            <input type="text" name="name" />
-          </label>
-         </form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5> Opponent 2 </h5>
+               <form>
+                <select class="chosen select">
+                 <option>Bayley</option>
+                 <option>Lana</option>
+                 <option>Peyton</option>
+                </select>
+               </form>
+            </div>
+          </div>
+        </div>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Andrew's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jake's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Nick's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
         <p>
          Match 9
         </p>
         <span>
-         <form>
-          <label>
-           Opponent 1:
-            <input type="text" name="name" />
-          </label>
-         </form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5> Opponent 1 </h5>
+               <form>
+                <select class="chosen select">
+                 <option>Bayley</option>
+                 <option>Lana</option>
+                 <option>Peyton</option>
+                </select>
+               </form>
+            </div>
+          </div>
+        </div>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Andrew's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jake's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Nick's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
         <p>
         v.s.
         </p>
         <span>
-         <form>
-          <label>
-           Opponent 2:
-            <input type="text" name="name" />
-          </label>
-         </form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5> Opponent 2 </h5>
+               <form>
+                <select class="chosen select">
+                 <option>Bayley</option>
+                 <option>Lana</option>
+                 <option>Peyton</option>
+                </select>
+               </form>
+            </div>
+          </div>
+        </div>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Andrew's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jake's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Nick's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
         <p>
          Match 10
         </p>
         <span>
-         <form>
-          <label>
-           Opponent 1:
-            <input type="text" name="name" />
-          </label>
-         </form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5> Opponent 1 </h5>
+               <form>
+                <select class="chosen select">
+                 <option>Bayley</option>
+                 <option>Lana</option>
+                 <option>Peyton</option>
+                </select>
+               </form>
+            </div>
+          </div>
+        </div>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Andrew's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jake's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Nick's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
-         </label>
-        </span>
-        <p>
-        v.s.
-        </p>
-        <span>
-         <form>
-          <label>
-           Opponent 2:
-            <input type="text" name="name" />
-          </label>
-         </form>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-        </span>
-        <p>
-         Match 11
-        </p>
-        <span>
-         <form>
-          <label>
-           Opponent 1:
-            <input type="text" name="name" />
-          </label>
-         </form>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
         <p>
         v.s.
         </p>
         <span>
-         <form>
-          <label>
-           Opponent 2:
-            <input type="text" name="name" />
-          </label>
-         </form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5> Opponent 1 </h5>
+               <form>
+                <select class="chosen select">
+                 <option>Bayley</option>
+                 <option>Lana</option>
+                 <option>Peyton</option>
+                </select>
+               </form>
+            </div>
+          </div>
+        </div>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Andrew's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jake's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Nick's Bet" />
          </label>
          <label>
           Name:
-           <input type="text" name="name" />
-         </label>
-        </span>
-        <p>
-         Match 12
-        </p>
-        <span>
-         <form>
-          <label>
-           Opponent 1:
-            <input type="text" name="name" />
-          </label>
-         </form>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-        </span>
-        <p>
-        v.s.
-        </p>
-        <span>
-         <form>
-          <label>
-           Opponent 2:
-            <input type="text" name="name" />
-          </label>
-         </form>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-        </span>
-        <p>
-         Match 13
-        </p>
-        <span>
-         <form>
-          <label>
-           Opponent 1:
-            <input type="text" name="name" />
-          </label>
-         </form>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-        </span>
-        <p>
-        v.s.
-        </p>
-        <span>
-         <form>
-          <label>
-           Opponent 2:
-            <input type="text" name="name" />
-          </label>
-         </form>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-        </span>
-        <p>
-         Match 14
-        </p>
-        <span>
-         <form>
-          <label>
-           Opponent 1:
-            <input type="text" name="name" />
-          </label>
-         </form>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-        </span>
-        <p>
-        v.s.
-        </p>
-        <span>
-         <form>
-          <label>
-           Opponent 2:
-            <input type="text" name="name" />
-          </label>
-         </form>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-        </span>
-        <p>
-         Match 15
-        </p>
-        <span>
-         <form>
-          <label>
-           Opponent 1:
-            <input type="text" name="name" />
-          </label>
-         </form>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-        </span>
-        <p>
-        v.s.
-        </p>
-        <span>
-         <form>
-          <label>
-           Opponent 2:
-            <input type="text" name="name" />
-          </label>
-         </form>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
-         </label>
-         <label>
-          Name:
-           <input type="text" name="name" />
+           <input type="text" name="name" placeholder="Jessica's Bet" />
          </label>
         </span>
       </div>
+    </div>
     );
   }
 }
